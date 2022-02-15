@@ -1,0 +1,11 @@
+<!ELEMENT sonnet (author, title, lines)>
+<!ATTLIST sonnet type CDATA #REQUIRED>
+<!ELEMENT author (lastName, firstName, nationality, yearOfBirth, yearOfDeath)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT yearOfBirth (#PCDATA)>
+<!ELEMENT yearOfDeath (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT lines (line,line,line,line,line,line,line,line,line,line,line,line,line,line)>
+<!ELEMENT line (#PCDATA)>
